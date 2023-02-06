@@ -11,4 +11,4 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "content", widget: "string"}
+      - { label: 'Blog post content', name: 'body', widget: 'markdown' }
